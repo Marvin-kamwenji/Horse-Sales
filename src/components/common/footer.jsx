@@ -9,8 +9,8 @@ function MyFooter (){
 
 
                 <div className="logo">
-                    <i className="fas fa-bolt"></i>
-                    <a href="http://google.com">Horse Sales</a>
+                    <i className="fas fa-horse-saddle"></i>
+                    <a href="http://google.com">FarasiMart</a>
                 </div>
 
                 <ul className="socials">
@@ -21,7 +21,7 @@ function MyFooter (){
                       <li><a href="https://www.instagram.com/"><i className="fab fa-instagram"></i></a></li>
                 </ul>
 
-                <div className="copyright">Copyright &copy; 2020 horses</div>
+                <div className="copyright">Copyright &copy; 2022 marvin</div>
 
 
                 <BackTop>

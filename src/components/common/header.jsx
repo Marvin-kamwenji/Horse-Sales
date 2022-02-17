@@ -19,8 +19,8 @@ function MyHeader() {
     <div className="container-fluid">
       <div className="header">
         <div className="logo">
-          <i className="fas fa-bolt"></i>
-          <a href="http://google.com">Tech</a>
+          <i className="fas fa-horse-saddle"></i>
+          <a href="http://google.com">FarasiMart</a>
         </div>
         <div className="mobileHidden">
           <Anchor targetOffset="65">

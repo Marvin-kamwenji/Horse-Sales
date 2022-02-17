@@ -6,6 +6,12 @@ body{
   overflow-x: hidden;
 }
 
+/* PARAGRAPHS */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
 .container-fluid{
   margin: 0 auto;
   max-width: 1200px;
@@ -23,6 +29,12 @@ body{
   z-index: 999;
 }
 
+
+
+
+/* ---------------------------------------- */
+/* Header */
+/* ---------------------------------------- */
 .header {
   display: flex;
   justify-content: space-between;
@@ -147,6 +159,11 @@ body{
   opacity: 1;
 }
 
+
+/* ------------------------------------------------- */
+/* Footer */
+/* ------------------------------------------------- */
+
 .ant-layout-footer {
   background: #111 !important;
   color: #fff !important;
@@ -201,4 +218,69 @@ body{
 
 .mobileHidden {
   display: block;
+}
+
+/* ------------------------------------------------- */
+/* Block */
+/* ------------------------------------------------- */
+.block {
+  padding:60px 0;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+
+/* ------------------------------------------------- */
+/* Contact Component */
+/* ------------------------------------------------- */
+
+.contactBlock .ant-form {
+  max-width: 640px;
+  margin: auto;
+}
+
+.contactBlock .ant-form textarea {
+  min-height: 120px;
+  height: 120px;
+}
+
+.titleHolder {
+  text-align:center;
+  position: relative;
+  padding: 0 0 20px;
+  margin: 0 0 40px;
+}
+
+
+.titleHolder:after {
+   transform: translateX(-50%);
+   content: '';
+   background: #1890ff;
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   height: 3px;
+   width: 50px;
+}
+
+.titleHolder h2 {
+  font-size: 28px;
+  margin: 0;
+}
+
+/* -------------------------------------------- */
+/* About */
+/* -------------------------------------------- */
+.aboutBlock .containerHolder {
+  text-align: center;
+  margin: 0 0 50px;
+}
+
+.aboutBlock .icon {
+  font-size: 40px;
+  color: #1890ff;
+  margin: 0 0 10px;
+}
+
+.aboutBlock .content {
+  text-align: center;
 }

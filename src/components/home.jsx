@@ -4,14 +4,18 @@ import AppAbout from "./home/about";
 import AppContact from "./home/contact";
 import AppServices from "./home/services";
 import HorseSale from "./home/horseSale";
-import MarketPlace from "./home/marketPlace";
+import Details from "./section/Details";
+import Cart from "./section/cart";
+import Products from "./section/products";
 
 function Home(){
     return(
         <div className="Main">
             <HorseSale />
              < AppServices />
-             < MarketPlace />
+             <Cart />
+             <Details />
+              <Products />
              < AppContact/>
              <AppAbout />
 

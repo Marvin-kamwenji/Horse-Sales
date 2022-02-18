@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 
 import { Anchor, Drawer, Button } from 'antd';
+import { Link } from 'react-router-dom';
+import { DataContext } from '../productData';
 
 const { Link } = Anchor;
 
